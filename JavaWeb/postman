@@ -1,0 +1,46 @@
+Postman:
+
+Salvar Usuário:
+
+http://localhost:8080/salvar
+
+JSON:
+{
+        "nome": "alexandre da silva Oliveira",
+        "idade": 34
+}
+
+LISTAR TODOS USUÁRIOS
+
+http://localhost:8080/listatodos
+
+DELETAR USUÁRIO
+
+body - x-www-form-urlencoded?
+
+Key = iduser
+
+BUSCAR USUÁRIO POR ID
+
+http://localhost:8080/buscaruserid
+
+body - form-data
+Key = iduser
+
+ATUALIZAR USUÁRIO
+
+http://localhost:8080/atualizar
+
+Boby - RAW - JSON
+
+{
+
+        "nome": "Alexandro Silva atualizado",
+        "idade": 34
+}
+
+BUSCAR USUÁRIO POR NOME
+
+body - form-data
+
+Key - name
